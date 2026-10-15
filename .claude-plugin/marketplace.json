@@ -1,0 +1,13 @@
+{
+  "name": "zeugnis-agent-kit",
+  "description": "Marketplace für das zeugnis-kit Plugin: Agenten-Pipeline für Arbeitszeugnisse — erstellen und prüfen auf einer gemeinsamen Registerschicht.",
+  "owner": { "name": "ceichmueller" },
+  "plugins": [
+    {
+      "name": "zeugnis-kit",
+      "source": "./",
+      "description": "Agenten-Pipeline für Arbeitszeugnisse: Satzregister mit Quellenstatus, satzweise Ampel-Notenmatrix, Anspruchsgate vor jedem Gegenseitenschreiben, unabhängiger Überdehnungs-Prüfer, Blindlauf gegen 25 Testfälle.",
+      "author": { "name": "ceichmueller" }
+    }
+  ]
+}

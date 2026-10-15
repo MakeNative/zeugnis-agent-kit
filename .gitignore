@@ -1,0 +1,18 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Das Fachregelwerk ist extrahiert, nicht gepflegt. Es wird von
+# `regelwerk_extrahieren.py` aus dem Upstream erzeugt und gehört deshalb nicht
+# in dieses Repo — sonst gibt es zwei Stände desselben Textes (P-04).
+/regelwerk/
+/upstream/
+
+# Niemals Falldaten ins Plugin-Repo. Ein Arbeitszeugnis enthält Name,
+# Geburtsdatum, Beschäftigungszeitraum und Leistungsbeurteilung einer echten
+# Person (Z-07). Fälle, Register, Befunde und Schreiben liegen im
+# Arbeitsordner und gehören dort in dessen .gitignore.
+/faelle/
+/gates/
+/laeufe/
+MANDATSBLATT.md

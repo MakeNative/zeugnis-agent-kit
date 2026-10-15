@@ -1,0 +1,9 @@
+{
+  "name": "zeugnis-kit",
+  "description": "Agenten-Pipeline für Arbeitszeugnisse in beiden Richtungen. Liest ein Zeugnis satzweise in ein Register mit Quellenstatus, bewertet jeden notenrelevanten Satz nach Ampel und Notenspanne, prüft Drift, Auslassungen und Form, und erzeugt daraus entweder ein neues Zeugnis oder Mandanten- und Gegenseitenschreiben. Zwei maschinelle Gates — Anspruchsgate und Fertig-Definition — trennen Rechtsmangel von Verhandlungswunsch; ein unabhängiger Überdehnungs-Prüfer meldet erfundene Geheimcodes. Das Fachregelwerk wird skriptbasiert aus dem Upstream extrahiert, nicht mitgeliefert.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ceichmueller"
+  },
+  "license": "MIT"
+}

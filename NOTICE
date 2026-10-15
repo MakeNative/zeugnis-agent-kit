@@ -1,0 +1,44 @@
+zeugnis-kit
+Copyright (c) 2026 ceichmueller
+Lizenz: MIT (siehe LICENSE)
+
+
+Fremdes Material
+================
+
+Dieses Kit enthält **kein** fremdes Fachregelwerk. Es extrahiert es zur
+Laufzeit aus dem folgenden Upstream-Projekt:
+
+  arbeitszeugnispruefer-skill
+  https://github.com/Klotzkette/arbeitszeugnispruefer-skill
+  Copyright (c) Klotzkette
+  Lizenz: Apache-2.0 OR MIT
+
+  Daraus abgeleitet: alle Dateien unter `regelwerk/`, erzeugt von
+  `tools/regelwerk_extrahieren.py`. Jede erzeugte Datei trägt einen
+  Herkunftskopf mit Quelldatei, Upstream-Version, SHA-256 der Quelle und
+  Lizenzhinweis.
+
+  Ebenfalls daraus: die 25 Testakten und `TESTFALL-MATRIX.md`, die
+  `tools/blindlauf.py` als Prüfkorpus liest.
+
+Für dieses abgeleitete Material wird die MIT-Option der Upstream-Lizenz
+gewählt; der Copyright-Vermerk bleibt im Herkunftskopf jeder erzeugten Datei
+erhalten.
+
+Der Upstream wird nicht mitgeliefert und nicht als Submodul gebunden. Er wird
+von der Skill `adopt` nach `upstream/` geklont; dieses Verzeichnis ist
+gitignoriert.
+
+
+Was von dort nicht übernommen wird
+==================================
+
+Rechtsstand. Fundstellen, Normzitate und Entscheidungsnachweise aus dem
+Upstream sind Autorenbehauptung mit Stand der jeweiligen Upstream-Version.
+Dieses Kit behandelt sie nach A-05 als ungeprüft, bis die Primärquelle
+bestätigt hat. Das gilt besonders für den Abschnitt „Aktualitätscockpit 2026".
+
+Ground Truth. Die 25 Testakten sind laut Upstream KI-generierte Fiktion. Ihr
+Erwartungshorizont kalibriert die Konsistenz der Pipeline, nicht die
+juristische Richtigkeit eines Ergebnisses (M-04).
