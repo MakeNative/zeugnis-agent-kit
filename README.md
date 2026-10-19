@@ -101,6 +101,16 @@ Strecke eine Vermutung.
 KI-generierte Fiktion; der Erwartungshorizont ist Autorenbehauptung. Er
 kalibriert Konsistenz, nicht Richtigkeit (M-04).
 
+## Installation
+
+```bash
+claude
+> /plugin marketplace add MakeNative/zeugnis-agent-kit
+> /plugin install zeugnis-kit@zeugnis-agent-kit
+```
+
+Python 3 wird gebraucht.
+
 ## Einrichten
 
 ```
@@ -176,3 +186,14 @@ Leistungsbeurteilung einer identifizierbaren Person. `faelle/`, `gates/` und
 `docs/REGELWERK.md` — die Regeln der Pipeline (Z, A, P, M). Das Fachwissen
 liegt in `regelwerk/` und ist dort Datum, nicht Regel: im Konflikt geht
 `docs/REGELWERK.md` vor.
+
+## MakeNative
+
+Dieses Kit ist Teil von [MakeNative](https://makenative.de). Wir arbeiten jeden Tag mit
+Agenten-Pipelines wie dieser und bringen anderen bei, sie für ihre eigenen Prozesse zu
+bauen. Für Entwickler genauso wie für alle, die ihre Arbeit mit KI automatisieren wollen.
+
+Du willst das für deine Arbeit lernen? Trag dich in die Liste ein:
+[Bewerbung Starter-Kohorte](https://tally.so/r/5ByYj6?utm_source=github&utm_medium=readme&utm_campaign=starter-kohorte)
+
+Christian Eichmüller · [LinkedIn](https://linkedin.com/in/christianeichmueller)

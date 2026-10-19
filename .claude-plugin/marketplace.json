@@ -1,7 +1,7 @@
 {
   "name": "zeugnis-agent-kit",
   "description": "Marketplace für das zeugnis-kit Plugin: Agenten-Pipeline für Arbeitszeugnisse — erstellen und prüfen auf einer gemeinsamen Registerschicht.",
-  "owner": { "name": "ceichmueller" },
+  "owner": { "name": "MakeNative" },
   "plugins": [
     {
       "name": "zeugnis-kit",
